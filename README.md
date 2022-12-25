@@ -10,4 +10,10 @@
 3-ий спринт.
 Адаптивный интерфейс.
 
-[Ссылка на проект:](https://ankiir.github.io/russian-travel/)
+[Ссылка на проект](https://ankiir.github.io/russian-travel/)
+
+### Технологии
+* HTML
+* CSS
+* Flexbox и Grid
+* БЭМ

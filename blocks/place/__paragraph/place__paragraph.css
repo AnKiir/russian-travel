@@ -1,0 +1,14 @@
+.place__paragraph {
+    align-self: start;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .place__paragraph {
+        max-width: 100%;
+        align-self: center;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

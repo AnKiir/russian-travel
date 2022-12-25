@@ -1,10 +1,11 @@
 .place__link {
     font-size: 18px;
     line-height: 22px;
+    font-weight: normal;
     color: white;
 }
 
 .place__link:hover {
     opacity: 0.8;
-    transition: 0.2s;
+    transition: opacity 0.2s ease-in-out;
 }

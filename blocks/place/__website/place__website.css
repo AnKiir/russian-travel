@@ -5,3 +5,20 @@
     padding: 0;
     align-self: end;
 }
+
+@media (max-width: 768px) {
+    .place__website {
+        max-width: 352px;
+        max-height: 46px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .place__website {
+        max-width: 288px;
+        max-height: 22px;
+        margin-bottom: 32px;
+        padding-left: 16px;
+        align-self: start;
+    }
+}

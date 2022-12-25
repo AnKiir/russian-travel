@@ -1,8 +1,7 @@
-.footer__links {
+.header__links {
     display: grid;
-    grid-template-columns: repeat(5, min-content);
+    grid-template-columns: repeat(2, min-content);
     gap: 1.125rem;
-    justify-items: start;
     align-items: end;
     list-style-type: none;
     margin: 0;

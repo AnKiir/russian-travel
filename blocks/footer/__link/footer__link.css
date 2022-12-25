@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+.footer__link:hover {
+    opacity: .8;
+    transition: 0.2s;
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
     .footer__link {
         font-size: 24px;

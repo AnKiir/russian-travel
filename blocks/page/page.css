@@ -1,7 +1,18 @@
 .page {
+    max-width: 1280px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #2a2c2f;
     font-family: 'Inter', serif, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: auto;
     color: #ffffff;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }

@@ -15,3 +15,9 @@
         line-height: calc(16px + (22 - 16) * ((100vw - 320px) / (768 - 320)));
     }
 }
+
+@media (max-width: 320px) {
+    .cover__subtitle {
+        margin-top: 16px;
+    }
+}

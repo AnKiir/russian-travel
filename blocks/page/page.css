@@ -5,7 +5,7 @@
     flex-direction: column;
     align-items: center;
     background-color: #2a2c2f;
-    font-family: 'Inter', serif, sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -15,4 +15,5 @@
     color: #ffffff;
     margin: auto;
     padding: 0;
+    overflow-x: hidden;
 }

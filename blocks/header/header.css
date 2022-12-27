@@ -3,19 +3,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 28px auto 0 auto;
-    padding: 0;
+    margin: 28px 0 0 0;
+    padding: 0 48px 0 48px;
 }
 
-@media screen and (max-width: 767px) {
+@media (max-width: 768px) {
     .header {
         padding-left: 24px;
         padding-right: 24px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 320px) {
     .header {
         margin-top: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
